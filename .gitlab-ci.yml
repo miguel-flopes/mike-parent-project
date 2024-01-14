@@ -1,0 +1,7 @@
+stages:
+  - package
+
+build:
+  stage: package
+  script:
+    - mvn clean package
