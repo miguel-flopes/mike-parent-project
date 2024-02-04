@@ -4,4 +4,4 @@ stages:
 build:
   stage: package
   script:
-    - mvn clean package
+    - mvn package
